@@ -24,7 +24,7 @@ def merge_sort(arr):
     while i < len(left) and j < len(right):
         left_str = str(left[i])
         right_str = str(right[j])
-        # we reverse the merge also we campare the numbers as strings
+        # we reverse the merge sort also we campare the numbers as strings
         # in python '6' > '34' returns True
         if left_str > right_str:
             arr[k] = left_str
